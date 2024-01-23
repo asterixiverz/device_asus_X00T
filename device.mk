@@ -8,6 +8,10 @@
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# FrameworksRes Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResOverlay
+
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 27
 
@@ -461,6 +465,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# SystemUI Overlay
+PRODUCT_PACKAGES += \
+    SystemUIOverlay 
 
 # Thermal
 PRODUCT_PACKAGES += \
