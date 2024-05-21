@@ -116,3 +116,7 @@ persist.sys.wfd.virtual=0
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Hardware Description
+ro.device.chipset=Qualcomm Snapdragon 636
+ro.device.display_resolution=5.99" IPS LCD 1080x2160
