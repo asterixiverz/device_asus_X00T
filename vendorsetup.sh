@@ -10,3 +10,6 @@ git clone https://github.com/inexdroid/hardware_qcom-caf_msm8998_media hardware/
 rm -rf kernel/asus/sdm660
 git clone --depth=1 --recursive https://github.com/Tiktodz/android_kernel_asus_sdm636 -b 14-ksu kernel/asus/sdm660
 rm -rf kernel/asus/sdm660/KernelSU/userspace
+
+rm -rf vendor/extra
+git clone https://github.com/asterixiverz/vendor_sign -b main ve && cp -R ve/* vendor/ && rm -rf ve

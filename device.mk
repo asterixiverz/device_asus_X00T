@@ -293,7 +293,10 @@ PRODUCT_PACKAGES += \
 
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.oem_unlock_supported=1
+    ro.oem_unlock_supported=1    
+
+# Signing
+-include vendor/extra/product.mk
 
 # OMX
 PRODUCT_PACKAGES += \
